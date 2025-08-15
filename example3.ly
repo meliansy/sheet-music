@@ -1,4 +1,5 @@
 \layout {
+  #(layout-set-staff-size 14)
   \context {
     \Score
     \omit BarNumber
@@ -6,12 +7,6 @@
 }
 \paper{
   indent = 1.5\cm
-     system-system-spacing = #'(
-       (basic-distance . 20)  ; %Increase the base distance
-       (minimum-distance . 10) ; %Increase the minimum distance
-       (padding . 3)       ; %Increase the padding
-       (stretchability . 70) ; %Adjust stretchability
-     )
    }
 
 voiceMusic = \relative {\key e \major \time 4/4 
@@ -52,9 +47,9 @@ drumContents = {
 <<
 \new DrumVoice \drummode {\voiceOne
 <hho sn>8-> hho hho <hho sn>-> hho hho <hho sn>16-> sn hho8|
-<hho sn>8-> hho hho <hho sn>-> hho16 sn hho8 sn16-^ sn-^ sn-^ sn-^ |\break
-hh16-> \parenthesize sn hh8 <hh sn>16 \parenthesize sn hh \parenthesize sn hh8 hh <hh sn>8 hh16 \parenthesize sn|
-hh16 \parenthesize sn hh8 <hh sn>16 \parenthesize sn hh \parenthesize sn hh8 hho <hh sn>8 sn16 sn|\break
+<hho sn>8-> hho hho <hho sn>-> hho16 sn hho8 sn16-^ sn-^ sn-^ sn-^ |
+hh16-> \parenthesize sn hh8 <hh sn>16 \parenthesize sn hh \parenthesize sn hh8 hh <hh sn>8 hh16 \parenthesize sn|\break
+hh16 \parenthesize sn hh8 <hh sn>16 \parenthesize sn hh \parenthesize sn hh8 hho <hh sn>8 sn16 sn|
 hh16-> \parenthesize sn hh8 <hh sn>16 \parenthesize sn hh \parenthesize sn hh8 hho <hh sn>8 hh16 \parenthesize sn|
 hh16 \parenthesize sn hh8 <hh sn>8 hh sn16 sn hh sn sn sn tomh8 |\break
 }
