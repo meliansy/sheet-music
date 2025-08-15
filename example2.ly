@@ -9,13 +9,13 @@
 }
 
 voiceMusic = \relative {\key bes \major \time 4/4 
-r2 d''8 ees d c ~| c bes4 a8 a bes c4| bes2 bes8 c d g~ |g f4.~f2 \bar ""
+r2 d''8 ees d c ~| c bes4 a8 a bes c4| bes2 bes8 c d g~ |g f4.~f2 
 }
 pianoRHMusic = \relative {\key bes \major \time 4/4 
-<f' bes d>8 q q q q q q q|<f a c> q q q q q q q|<g bes d> q q q q q q q| <f a d> q q q q q q q\bar ""
+<f' bes d>8 q q q q q q q|<f a c> q q q q q q q|<g bes d> q q q q q q q| <f a d> q q q q q q q
 }
 bassMusic = \relative {\clef bass \key bes \major \time 4/4 
-bes4. bes8~bes2|a4. a8~a2|g4. g8~g2|f4. f8~f2\bar ""
+bes4. bes8~bes2|a4. a8~a2|g4. g8~g2|f4. f8~f2
 }
 
 \score {
